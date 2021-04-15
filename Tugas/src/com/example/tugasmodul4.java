@@ -18,10 +18,6 @@ public class tugasmodul4 {
         //Press Any Key
         kelas.pressAnyKey(s);
 
-        //clear screen
-        kelas.clearScreen();
-        char a;
-
         // menu 1
         kelas.menu1();
         int y = s.nextInt();
@@ -41,7 +37,7 @@ public class tugasmodul4 {
             }
         }else if(y == 2){
             kelas.menu3();
-            kelas.printMatrix(s);
+            kelas.sortingangka(s);
 
         }else {
             System.exit(0);
