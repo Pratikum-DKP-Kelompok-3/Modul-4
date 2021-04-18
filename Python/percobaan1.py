@@ -21,10 +21,10 @@ def arbitrary_func(*penutup):
 anonim_func = lambda praktikan1, praktikan2, kelompok: print(f"Ini adalah percobaan {praktikan1} dan {praktikan2} kelompok ", kelompok )
 
 #Pemanggilan Fungsi
-non_return_func("nama 1", "nama 2")
-return_func(1)
-anonim_func("nama 1", "nama 2", 5)
-arbitrary_func("nama 1", "nama 2", "nama 3", "nama 4")
+non_return_func("Nanda", "Zahir")
+return_func(3)
+anonim_func("Nanda", "Zahir", 3)
+arbitrary_func("Nanda", "Zahur", "Muhammad", "nama 4")
 
 #Membuat Objek
 p1 = percobaan2.contoh_method("Nanda" , "Zahir")
